@@ -1,0 +1,95 @@
+﻿  adt_memory_node.c
+  adt_queue.c
+  adt_stack.c
+  adt_list.c
+  adt_dllist.c
+  adt_vector.c
+  comparative.c
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(146,35): warning C4245: 'return': conversión de 'int' en 'u16'; no coinciden signed/unsigned
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(146,35): warning C4245: 		return kErrorCode_NullMemoryNode;
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(146,35): warning C4245: 		                                ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(165,35): warning C4245: 'return': conversión de 'int' en 'u16'; no coinciden signed/unsigned
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(165,35): warning C4245: 		return kErrorCode_NullMemoryNode;
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(165,35): warning C4245: 		                                ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_queue.c(190,39): warning C4100: 'position': parámetro formal sin referencia
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_queue.c(190,39): warning C4100: void* QUEUE_dequeue(Queue* queue, u16 position) {
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_queue.c(190,39): warning C4100:                                       ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_stack.c(32,1): warning C4047: 'inicializando': 's16 *(__cdecl *)(Stack *,Stack *)' es distinto en los niveles de direccionamiento indirecto de 's16 (__cdecl *)(Stack *,Stack *)'
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_stack.c(32,1): warning C4047: struct stack_ops_s stack_ops = { .destroy = STACK_destroy,
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_stack.c(32,1): warning C4047: ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(43,19): warning C4057: 'función': 'char *const ' tiene un direccionamiento indirecto distinto de 'u8 *' para tipos base parecidos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(43,19): warning C4057:     sprintf(my_str, "1234");
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(43,19): warning C4057:                   ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(52,19): warning C4057: 'función': 'char *const ' tiene un direccionamiento indirecto distinto de 'u8 *' para tipos base parecidos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(52,19): warning C4057:     sprintf(my_str, "5678");
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(52,19): warning C4057:                   ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(55,38): warning C4244: 'función': conversión de 'const u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(55,38): warning C4244:   vector1 = VECTOR_create(repetitions);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(55,38): warning C4244:                                      ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(56,38): warning C4244: 'función': conversión de 'const u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(56,38): warning C4244:   vector2 = VECTOR_create(repetitions);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(56,38): warning C4244:                                      ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(57,33): warning C4244: 'función': conversión de 'const u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(57,33): warning C4244:   list = LIST_create(repetitions);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(57,33): warning C4244:                                 ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(58,34): warning C4244: 'función': conversión de 'const u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(58,34): warning C4244:   list2 = LIST_create(repetitions);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(58,34): warning C4244:                                  ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(59,35): warning C4244: 'función': conversión de 'const u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(59,35): warning C4244:   dlist = DLIST_create(repetitions);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(59,35): warning C4244:                                   ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(60,35): warning C4244: 'función': conversión de 'const u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(60,35): warning C4244:   queue = QUEUE_create(repetitions);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(60,35): warning C4244:                                   ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(61,35): warning C4244: 'función': conversión de 'const u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(61,35): warning C4244:   stack = STACK_create(repetitions);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(61,35): warning C4244:                                   ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(110,66): warning C4244: 'función': conversión de 'u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(110,66): warning C4244:     vector1->ops_->insertAt(vector1, data1[rep], 4, random_number);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(110,66): warning C4244:                                                                  ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(126,52): warning C4244: 'función': conversión de 'u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(126,52): warning C4244:     vector1->ops_->extractAt(vector1, random_number);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(126,52): warning C4244:                                                    ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(265,50): warning C4244: 'función': conversión de 'u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(265,50): warning C4244:     list->ops_->insertAt(list, data1[rep], 4, rep);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(265,50): warning C4244:                                                  ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(281,36): warning C4244: 'función': conversión de 'u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(281,36): warning C4244:     list->ops_->extractAt(list, rep);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(281,36): warning C4244:                                    ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(311,40): warning C4020: 'función mediante puntero': hay demasiados parámetros reales
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(311,40): warning C4020:     list->ops_->extractLast(list, data1[rep], 4);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(311,40): warning C4020:                                        ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(386,52): warning C4244: 'función': conversión de 'u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(386,52): warning C4244:     dlist->ops_->insertAt(dlist, data1[rep], 4, rep);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(386,52): warning C4244:                                                    ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(402,38): warning C4244: 'función': conversión de 'u32' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(402,38): warning C4244:     dlist->ops_->extractAt(dlist, rep);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(402,38): warning C4244:                                      ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(431,42): warning C4020: 'función mediante puntero': hay demasiados parámetros reales
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(431,42): warning C4020:     dlist->ops_->extractLast(dlist, data1[rep], 4);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(431,42): warning C4020:                                          ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(446,29): warning C4133: 'función': tipos incompatibles, de 'DList *' a 'List *'
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(446,29): warning C4133:     list->ops_->concat(dlist, dlist);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(446,29): warning C4133:                             ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(446,36): warning C4133: 'función': tipos incompatibles, de 'DList *' a 'List *'
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(446,36): warning C4133:     list->ops_->concat(dlist, dlist);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(446,36): warning C4133:                                    ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(492,36): warning C4244: 'función': conversión de 'int' a 'u16'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(492,36): warning C4244:     queue->ops_->dequeue(queue, pos);
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(492,36): warning C4244:                                    ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(567,9): warning C4189: 'pos': la variable local se ha inicializado pero no se hace referencia a ella
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(567,9): warning C4189:     int pos = rand() % 100;
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(567,9): warning C4189:         ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(604,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(604,21): warning C4018:   for (int i = 0; i < repetitions; ++i) {
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(604,21): warning C4018:                     ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(628,19): warning C4244: 'función': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(628,19): warning C4244:   srand(time(NULL));
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(628,19): warning C4244:                   ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(627,27): warning C4100: 'argv': parámetro formal sin referencia
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(627,27): warning C4100: int main(int argc, char** argv) {
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(627,27): warning C4100:                           ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(627,14): warning C4100: 'argc': parámetro formal sin referencia
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(627,14): warning C4100: int main(int argc, char** argv) {
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\tests\comparative.c(627,14): warning C4100:              ^
+  PR6_Comparative.vcxproj -> C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\bin\Release\PR6_Comparative.exe

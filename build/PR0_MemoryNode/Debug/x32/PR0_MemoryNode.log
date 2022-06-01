@@ -1,0 +1,14 @@
+﻿  adt_memory_node.c
+  test_memory_node.c
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(146,35): warning C4245: 'return': conversión de 'int' en 'u16'; no coinciden signed/unsigned
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(146,35): warning C4245: 		return kErrorCode_NullMemoryNode;
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(146,35): warning C4245: 		                                ^
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(165,35): warning C4245: 'return': conversión de 'int' en 'u16'; no coinciden signed/unsigned
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(165,35): warning C4245: 		return kErrorCode_NullMemoryNode;
+C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\src\adt_memory_node.c(165,35): warning C4245: 		                                ^
+ABGS_MemoryManager_w32d.lib(abgs_memory_manager.obj) : warning LNK4099: no se encontró PDB 'ABGS_MemoryManager.pdb' con 'ABGS_MemoryManager_w32d.lib(abgs_memory_manager.obj)' o en 'C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\bin\Debug\ABGS_MemoryManager.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ABGS_MemoryManager_w32d.lib(abgs_mm_container_list.obj) : warning LNK4099: no se encontró PDB 'ABGS_MemoryManager.pdb' con 'ABGS_MemoryManager_w32d.lib(abgs_mm_container_list.obj)' o en 'C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\bin\Debug\ABGS_MemoryManager.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ABGS_MemoryManager_w32d.lib(abgs_config_parser.obj) : warning LNK4099: no se encontró PDB 'ABGS_MemoryManager.pdb' con 'ABGS_MemoryManager_w32d.lib(abgs_config_parser.obj)' o en 'C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\bin\Debug\ABGS_MemoryManager.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ABGS_MemoryManager_w32d.lib(abgs_console.obj) : warning LNK4099: no se encontró PDB 'ABGS_MemoryManager.pdb' con 'ABGS_MemoryManager_w32d.lib(abgs_console.obj)' o en 'C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\bin\Debug\ABGS_MemoryManager.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+ABGS_MemoryManager_w32d.lib(abgs_mutex.obj) : warning LNK4099: no se encontró PDB 'ABGS_MemoryManager.pdb' con 'ABGS_MemoryManager_w32d.lib(abgs_mutex.obj)' o en 'C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\bin\Debug\ABGS_MemoryManager.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+  PR0_MemoryNode.vcxproj -> C:\Users\Usuario\Documents\devel\C++\DS_ALG_AI1\bin\Debug\PR0_MemoryNode_d.exe
